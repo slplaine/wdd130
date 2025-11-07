@@ -27,7 +27,7 @@ h1 {
 }
 
 h2 {
-    border-bottom: 1 px solid #222;
+    border-bottom: 1px solid #222;
 }
 
 img {
@@ -43,7 +43,7 @@ section {
     background-color: #abe;
     font-size: .9rem;
 }
-section, p {
+section p {
     margin: 10px;
 }
 
