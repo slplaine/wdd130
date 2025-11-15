@@ -17,8 +17,8 @@ body {
     color:var(--accent1-color)
 }
 header , main, footer {
-    width: 840px;
-    margin: 0 auto;
+   margin: 0 auto;
+    width: 100%;
 }
 h1, h2 {
     font-family: var(--helding-font);
@@ -31,3 +31,54 @@ nav, p, section, article {
 .socialmedia a {
     text-decoration: none;
 }
+.hero {
+    position: relative;
+    width: 100%;
+}
+
+.hero img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.hero h1 {
+    position: absolute;
+    top: 40px;
+    left: 50%;
+    transform: translateX(-50%);
+
+    padding: 20px;
+    width: 100%;
+    text-align: center;
+
+    font-size: 2.5rem;
+    color: white;
+    background: rgba(0,0,0,0.35);
+}
+.hero article {
+    position: absolute;        
+    bottom: 40px;              
+    left: 0;                  
+    width: 97.5%;               
+    transform: none;        
+
+    background: rgba(128, 0, 32, 0.7); 
+    padding: 16px;
+    display: flex;             
+    align-items: center;       
+    justify-content: space-between;
+    border-radius: 0;          
+    height: 120px;             
+}
+
+.hero article img {
+    width: 150px;
+    height: auto;
+}
+
+.hero article p {
+    width: 70%;                
+    margin-right: 16px;
+    color: black;
+}
+
