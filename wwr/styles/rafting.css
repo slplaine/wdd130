@@ -1,6 +1,6 @@
 :root {
   --primary-color:#36454F;
-  --secundary-color: #d3d3d36f;
+  --secundary-color: white;
   --tertiary-color: #800020;
   --accent1-color:#264653;
   --accent2-color: #000000;
@@ -52,8 +52,8 @@ nav, p, section, article {
     text-align: center;
 
     font-size: 2.5rem;
-    color: white;
-    background: rgba(0,0,0,0.35);
+    color:var(--secundary-color);
+    background:var(--accent2-color);
 }
 .hero article {
     position: absolute;        
@@ -79,6 +79,6 @@ nav, p, section, article {
 .hero article p {
     width: 70%;                
     margin-right: 16px;
-    color: black;
+    color:var(--accent2-color);
 }
 
