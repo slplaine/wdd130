@@ -1,7 +1,6 @@
 :root {
   --primary-color:#36454F;
   --secundary-color: white;
-  --tertiary-color: #800020;
   --accent1-color:#264653;
   --accent2-color: #000000;
   --helding-font: "Times New Roman", "Georgia", serif;
@@ -62,7 +61,7 @@ nav, p, section, article {
     width: 97.5%;               
     transform: none;        
 
-    background: rgba(128, 0, 32, 0.7); 
+    background:#e6b3c0; 
     padding: 16px;
     display: flex;             
     align-items: center;       
