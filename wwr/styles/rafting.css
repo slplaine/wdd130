@@ -59,15 +59,10 @@ nav, p, section, article {
     bottom: 40px;              
     left: 0;                  
     width: 97.5%;               
-    transform: none;        
-
     background:#e6b3c0; 
-    padding: 16px;
-    display: flex;             
-    align-items: center;       
-    justify-content: space-between;
+    padding: 16px;       
     border-radius: 0;          
-    height: 120px;             
+    height: auto;             
 }
 
 .hero article img {
