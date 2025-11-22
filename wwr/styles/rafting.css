@@ -73,6 +73,7 @@ nav, p, section, article {
 .hero article img {
     width: 150px;
     height: auto;
+    float: right;
 }
 
 .hero article p {
