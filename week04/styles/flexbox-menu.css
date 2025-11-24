@@ -10,11 +10,16 @@ nav {
 nav ul {
     list-style-type: none;
     display: flex;
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     max-width: 900px;
     margin: 0 auto;
     justify-content: space-around;
-    align-items: center;
+    align-items: center;*/
+}
+
+nav li {
+    flex: 1 1 100%;
+
 }
 
 nav a {
