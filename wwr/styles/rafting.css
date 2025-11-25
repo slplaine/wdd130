@@ -5,6 +5,7 @@
   --accent2-color: #000000;
   --helding-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
+  --header-bg-color: #B76E79;
 }
 * {
     margin: 0;
@@ -22,13 +23,33 @@ header , main, footer {
 }
 header {
     display: grid;
-    grid-template-columns: 200px 1fr 1fr;
+    grid-template-columns: 300px 1fr;
     align-items: center;
+    background-color: var(--header-bg-color);
+    height: 100px;
+
 }
+.logo {
+    background-color: var(--header-bg-color);
+    padding: 4px; /* Menos espaço interno */
+    margin-top: -10px; /* Reduz a margem acima da logo */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%; /* Garante alinhamento vertical */
+}
+.logo img {
+    max-height: 115px;
+    width: auto;
+}
+
  nav ul {
     display: flex;
     list-style: none;
-    justify-content: space-evenly;
+    justify-content: center; /* Centraliza os links */
+    gap: 24px; /* Espaço entre os links */
+    align-items: center;
+    height: 100%; /* Alinha verticalmente com o header */
     
 }
  nav li{
@@ -67,7 +88,7 @@ nav, p, section, article {
     left: 50%;
     transform: translateX(-50%);
 
-    padding: 20px;
+    padding: 30px;
     width: 100%;
     text-align: center;
 
