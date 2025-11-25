@@ -30,17 +30,17 @@ nav, p, section, article {
 .socialmedia a {
     text-decoration: none;
 }
-.hero {
+.box {
     position: relative;
     width: 100%;
 }
 
-.hero img {
+.box img {
     width: 100%;
     height: auto;
     display: block;
 }
-.hero h1 {
+.box h1 {
     position: absolute;
     top: 40px;
     left: 50%;
@@ -54,7 +54,7 @@ nav, p, section, article {
     color:var(--secundary-color);
     background:var(--accent2-color);
 }
-.hero article {
+.box article {
     position: absolute;        
     bottom: 40px;              
     left: 0;                  
@@ -65,13 +65,13 @@ nav, p, section, article {
     height: auto;             
 }
 
-.hero article img {
+.box article img {
     width: 150px;
     height: auto;
     float: right;
 }
 
-.hero article p {
+.box article p {
     width: 70%;                
     margin-right: 16px;
     color:var(--accent2-color);
