@@ -153,16 +153,6 @@ nav, p, section, article {
   border-radius: 4px;
 }
 
-@media (max-width: 768px) {
-  .history-grid {
-    grid-template-columns: 1fr;
-    grid-row-gap: 16px;
-  }
-
-  .history-col.left { order: 1; }
-  .history-image { order: 2; }
-  .history-col.right { order: 3; }
-}
 .history h2 {
   text-align: center;     /* Centraliza o texto */
   font-size: 32px; 
