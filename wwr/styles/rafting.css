@@ -1,11 +1,10 @@
 :root {
-  --primary-color:#36454F;
+  --primary-color:#000000;
   --secundary-color: white;
-  --accent1-color:#264653;
-  --accent2-color: #000000;
+  --accent1-color: #D89AA6;
   --helding-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
-  --header-bg-color: #B76E79;
+  
 }
 * {
     margin: 0;
@@ -15,7 +14,7 @@
 
 body {
     font-family: var(--body-font) ;
-    color:var(--accent1-color)
+    color:var(--primary-color)
 }
 header , main, footer {
    margin: 0 auto;
@@ -25,12 +24,12 @@ header {
     display: grid;
     grid-template-columns: 300px 1fr;
     align-items: center;
-    background-color: var(--header-bg-color);
+    background-color: var(--accent1-color);
     height: 100px;
 
 }
 .logo {
-    background-color: var(--header-bg-color);
+    background-color: var(--accent1-color);
     padding: 4px; /* Menos espaço interno */
     margin-top: -10px; /* Reduz a margem acima da logo */
     display: flex;
@@ -57,7 +56,7 @@ header {
 }
 nav a {
     text-decoration: none;
-    color:var(--accent2-color);
+    color:var(--primary-color);
     font-size: 20px;
 }
 
@@ -94,14 +93,14 @@ nav, p, section, article {
 
     font-size: 2.5rem;
     color:var(--secundary-color);
-    background:var(--accent2-color);
+    background:var(--primary-color);
 }
 .hero article {
     position: absolute;        
     bottom: 40px;              
     left: 0;                  
     width: 97.5%;               
-    background:var(--accent2-color); 
+    background:var(--primary-color); 
     padding: 16px;       
     border-radius: 0;          
     height: auto;             
@@ -116,7 +115,7 @@ nav, p, section, article {
 .hero article p {
     width: 70%;                
     margin-right: 16px;
-    color:var(--secundary-color);
+    color:var(--primary-color);
 }
 .history {
   margin: 24px;
@@ -190,6 +189,6 @@ nav, p, section, article {
 .adventure-gallery figcaption {
   margin-top: 8px;
   font-size: 14px;
-  color: var(--accent1-color);
+  color: var(--primary-color);
   text-align: center;
 }
