@@ -41,8 +41,7 @@ header {
     max-height: 115px;
     width: auto;
 }
-
- nav ul {
+nav ul {
     display: flex;
     list-style: none;
     justify-content: center; /* Centraliza os links */
@@ -51,7 +50,7 @@ header {
     height: 100%; /* Alinha verticalmente com o header */
     
 }
- nav li{
+nav li{
     flex: 1 1 auto;
 }
 nav a {
@@ -59,7 +58,6 @@ nav a {
     color:var(--primary-color);
     font-size: 20px;
 }
-
 h1, h2 {
     font-family: var(--helding-font);
     color:var(--primary-color)
