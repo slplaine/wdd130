@@ -1,7 +1,7 @@
 :root {
   --primary-color:#000000;
-  --secundary-color: white;
-  --accent1-color: #D89AA6;
+  --secundary-color: #FFFFFF;
+  --accent1-color:#F2CED6;
   --helding-font: "Times New Roman", "Georgia", serif;
   --body-font: Arial, Helvetica, sans-serif;
   
@@ -115,7 +115,7 @@ nav, p, section, article {
 .hero article p {
     width: 70%;                
     margin-right: 16px;
-    color:var(--primary-color);
+    color:var(--secundary-color);
 }
 .history {
   margin: 24px;
