@@ -96,7 +96,8 @@ nav, p, section, article {
     padding: 16px;       
     border-radius: 0;          
     height: auto;             
-}.hero article img {
+}
+.hero article img {
     width: 150px;
     height: auto;
     float: right;
