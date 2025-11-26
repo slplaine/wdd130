@@ -11,7 +11,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-
 body {
     font-family: var(--body-font) ;
     color:var(--primary-color)
@@ -26,7 +25,6 @@ header {
     align-items: center;
     background-color: var(--accent1-color);
     height: 100px;
-
 }
 .logo {
     background-color: var(--accent1-color);
@@ -66,14 +64,10 @@ nav, p, section, article {
     margin: 16px;
     padding: 8px;
 }
-.socialmedia a {
-    text-decoration: none;
-}
 .hero {
     position: relative;
     width: 100%;
 }
-
 .hero img {
     width: 100%;
     height: auto;
@@ -102,14 +96,11 @@ nav, p, section, article {
     padding: 16px;       
     border-radius: 0;          
     height: auto;             
-}
-
-.hero article img {
+}.hero article img {
     width: 150px;
     height: auto;
     float: right;
 }
-
 .hero article p {
     width: 70%;                
     margin-right: 16px;
@@ -125,25 +116,21 @@ nav, p, section, article {
   grid-column-gap: 24px;
   align-items: start;
 }
-
 .history-col {
   color: var(--primary-color);
   line-height: 1.6;
 }
-
 .history-image {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-
 .history-image img {
   max-width: 360px;
   width: 100%;
   height: auto;
   border-radius: 4px;
 }
-
 .history h2 {
   text-align: center;     /* Centraliza o texto */
   font-size: 32px; 
@@ -154,20 +141,17 @@ nav, p, section, article {
   padding: 16px;
   text-align: center;
 }
-
 .adventures h2 {
   font-size: 32px;
   margin-bottom: 24px;
   color: var(--primary-color);
 }
-
 .adventure-gallery {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
   gap: 16px;
 }
-
 .adventure-gallery figure {
   flex: 1 1 calc(20% - 16px); /* 5 figuras por linha com espaçamento */
   display: flex;
@@ -175,7 +159,6 @@ nav, p, section, article {
   align-items: center;
   margin: 0;
 }
-
 .adventure-gallery img {
   width: 100%;
   max-width: 160px;
@@ -183,10 +166,39 @@ nav, p, section, article {
   border-radius: 6px;
   box-shadow: 0 2px 6px var(--primary-color);
 }
-
 .adventure-gallery figcaption {
   margin-top: 8px;
   font-size: 14px;
   color: var(--primary-color);
   text-align: center;
+}
+footer {
+  display: grid;
+  grid-template-columns: 1fr 300px;
+  align-items: center;
+  background-color: var(--accent1-color);
+  height: 100px;
+  padding: 0 20px;
+  font-family: var(--body-font);
+  color: var(--primary-color);
+}
+.footer-content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+.footer-content p {
+  margin: 0;
+  font-size: 16px;
+}
+.socialmedia {
+  display: flex;
+  gap: 16px;
+}
+.socialmedia a img {
+  transition: transform 0.3s ease;
+}
+.socialmedia a {
+    text-decoration: none;
 }
