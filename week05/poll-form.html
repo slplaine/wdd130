@@ -13,21 +13,27 @@
         <h1>WDD 130 | Html Form - User Poll </h1>
     </header>
     <form>
-        <label>Full Name: <input type="text" name="fullname" required></label>
-        <label>Email: <input type="email" name="useremail" required></label>
-        <label for="browser">What is your favorite browser?</label>
-        <select name="browser" id="browser">
-            <option value="Chrome">Chrome</option>
-            <option value="Firefox">Firefox</option>
-            <option value="Safari">Safari</option>
-            <option value="Edge">Edge</option>
-            <option value="Other">Other</option>
-        </select>
-        <label for="pet">Do you have a household pet?</label>
-        <input type="checkbox" id="pet" name="pet">
-        <label for="feedback">List the places you have lived:</label>
-        <textarea id="feedback" name="feedback" rows="4"
-            placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+        <fieldset>
+            <label>Full Name: <input type="text" name="fullname" required></label>
+            <label>Email: <input type="email" name="useremail" required></label>
+        </fieldset>
+        <fieldset>
+            <label for="browser">What is your favorite browser?</label>
+            <select name="browser" id="browser">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+                <option value="Other">Other</option>
+            </select>
+
+            <label for="pet">Do you have a household pet?
+                <input type="checkbox" id="pet" name="pet"></label>
+
+            <label for="feedback">List the places you have lived:</label>
+            <textarea id="feedback" name="feedback" rows="4"
+                placeholder="Stillwater Florida, Amsterdam Netherlands, Tibuktu Mali"></textarea>
+        </fieldset>
         <button type="submit">Submit Poll</button>
     </form>
 </body>

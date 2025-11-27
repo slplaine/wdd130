@@ -3,3 +3,42 @@
     padding: 0;
     box-sizing: border-box;
 }
+body {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 1.2rem;
+    color: #000;
+    background-color:#fff;
+}
+header {
+        margin:0 auto;
+        width: 500px;
+
+}
+h1 {
+    margin: 1rem;
+    font-size: larger;
+    color: #000;
+    background-color:#fff;
+    text-align: center;
+}
+form {
+    width: 500px;
+    margin:0 auto;
+    padding: 1rem;
+    border: 1 px solid #000;
+    border-radius: 0.5rem;
+    background-color:#eee ;
+    display: grid;
+}
+fieldset {
+    display: grid;           /* transforma o fieldset em grid */
+    gap: 1rem;               /* espaçamento entre os elementos */
+    padding: 1.5rem;         /* espaço interno */
+    border: 2px solid #ccc;  /* borda */
+    border-radius: 10px;     /* borda arredondada */
+    margin-bottom: 1.5rem;   /* espaço entre fieldsets */
+}
+legend {
+    font-weight: bold;
+    padding: 0 10px;
+}
