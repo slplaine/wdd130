@@ -4,9 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>About Us Whitewater Rafting</title>
-    <meta name="description"
-        content=" This homepage is about Rafting Site Project, a website project that  will work on throughout the course WDD130 Web Fundamentals course.">
+    <title>Contact Us Whitewater Rafting</title>
+    <meta name="description" content=" This page is a way to contact the rafting company.">
     <meta name="author" content="Simone Leticia C G Plaine">
     <link rel="stylesheet" href="styles/rafting.css">
 </head>
@@ -26,70 +25,99 @@
         </nav>
     </header>
     <main>
-        <div class="hero">
-            <img src="images/rafting27_1024.jpg" alt=" Rafting demonstration">
-            <h1>Whitewater Rafting</h1>
-            <article>
-                <img src="images/rafting17_600.jpg" alt="Clients have fun" width="400">
-                <p>Where teamwork, adrenaline, and nature come together for the ultimate whitewater rafting experience.
-                </p>
-            </article>
-        </div>
-        <section class="history">
-            <h2>History</h2>
-            <div class="history-grid">
-                <div class="history-col left">
-                    <p>Whitewater Rafting was founded in 2012 in the heart of Brotas, a region famous for its
-                        breathtaking rivers and lush natural landscapes. What began as a small family business offering
-                        weekend rafting trips quickly
-                        grew into one of the most recognized adventure tourism companies in the state of São Paulo. The
-                        founders, inspired by
-                        their passion for outdoor sports and environmental conservation, built the company around
-                        safety, sustainability,
-                        and unforgettable experiences.</p>
+        <main>
+            <section class="contact-section">
+                <div class="company-info">
+                    <h2>WhiteWater Rafting Company</h2>
+                    <p>Coelho Neto 389<br>Joinville, Santa Catarina-BR</p>
+                    <p><strong>Phone:</strong> +1 999 999 9999</p>
+                    <p><strong>Email:</strong> info@whitewater.com</p>
                 </div>
-                <div class="history-image">
-                    <img src="images/rafting_history.jpg" alt="Rafting in river in the middle of the forest">
+                <div class="contact-grid">
+                    <div class="map-wrapper">
+                        <iframe class="map-frame"
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.550536567323!2d-48.854265126111336!3d-26.27624707703222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deafda4ff8733d%3A0x839c5648447fad85!2sR.%20Coelho%20Neto%2C%20389%20-%20Santo%20Ant%C3%B4nio%2C%20Joinville%20-%20SC%2C%2089218-015!5e0!3m2!1sen!2sbr!4v1764446843189!5m2!1sen!2sbr"
+                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                    <form class="contact-form" action="#" method="post">
+                        <fieldset>
+                            <div class="form-field">
+                                <label for="name">Name</label>
+                                <input id="name" name="name" type="text" placeholder="Your full name" required>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="email">Email</label>
+                                <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                            </div>
+
+                            <div class="form-field">
+                                <span class="label">Message Purpose</span>
+                                <div class="radio-group">
+                                    <label>
+                                        <input type="radio" name="purpose" value="general" required>
+                                        General Inquiry
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="purpose" value="reservation">
+                                        Reservation Question
+                                    </label>
+                                    <label>
+                                        <input type="radio" name="purpose" value="website">
+                                        Website Suggestion
+                                    </label>
+                                </div>
+                            </div>
+
+                            <div class="form-field">
+                                <label for="message">Message</label>
+                                <textarea id="message" name="message" rows="6" placeholder="Type here"
+                                    required></textarea>
+                            </div>
+
+                            <div class="form-field checkbox-field">
+                                <label>
+                                    <input type="checkbox" name="subscribe">
+                                    Please subscribe me to the monthly newsletter
+                                </label>
+                            </div>
+
+                            <button class="btn-submit" type="submit">Get in Touch!</button>
+                        </fieldset>
+                    </form>
                 </div>
-                <div class="history-col right">
-                    <p>Over the years, Whitewater Rafting as expanded its operations, adding new routes along the
-                        Jacaré-Pepira River,
-                        technical training programs for guides, and partnerships with local eco-lodges. Today, the
-                        company welcomes visitors
-                        from all over Brazil and abroad, providing thrilling rafting excursions while promoting respect
-                        for nature and local
-                        culture. With a team of highly trained instructors and a strong commitment to responsible
-                        tourism, Whitewater Rafting
-                        continues to shape Brotas as the adventure capital of São Paulo.</p>
+            </section>
+            <section class="employees">
+                <h2>We Are Here to Serve You</h2>
+
+                <div class="employee-grid">
+                    <figure class="employee-card">
+                        <img src="images/employee1.jpg" alt="Profile photo of River Guide Lead">
+                        <figcaption>
+                            <strong>Title:</strong> River Guide Lead
+                        </figcaption>
+                    </figure>
+
+                    <figure class="employee-card">
+                        <img src="images/employee2.jpg" alt="Profile photo of Reservations Manager">
+                        <figcaption>
+                            <strong>Title:</strong> Reservations Manager
+                        </figcaption>
+                    </figure>
+
+                    <figure class="employee-card">
+                        <img src="images/employee3.jpg" alt="Profile photo of Web & Customer Support">
+                        <figcaption>
+                            <strong>Title:</strong> Web & Customer Support
+                        </figcaption>
+                    </figure>
                 </div>
-            </div>
-        </section>
-        <section class="adventures">
-            <h2>Adventure Awaits You!</h2>
-            <div class="adventure-gallery">
-                <figure>
-                    <img src="images/los-dientes.jpg" alt="Los Dientes del Diablo">
-                    <figcaption>Los Dientes del Diablo</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/big-mallard.jpg" alt="Big Mallard">
-                    <figcaption>Big Mallard</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/half-day.jpg" alt="Half Day Adventure">
-                    <figcaption>Half Day Adventure</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/snake-river.jpg" alt="Snake River">
-                    <figcaption>Snake River</figcaption>
-                </figure>
-                <figure>
-                    <img src="images/wild-rapids.jpg" alt="Wild Rapids">
-                    <figcaption>Wild Rapids</figcaption>
-                </figure>
-            </div>
-        </section>
-        </section>
+            </section>
+        </main>
+
+
+
     </main>
     <footer>
         <div class="footer-content">
