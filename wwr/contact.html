@@ -25,96 +25,94 @@
         </nav>
     </header>
     <main>
-        <main>
-            <section class="contact-section">
-                <div class="company-info">
-                    <h2>WhiteWater Rafting Company</h2>
-                    <p>Coelho Neto 389<br>Joinville, Santa Catarina-BR</p>
-                    <p><strong>Phone:</strong> +1 999 999 9999</p>
-                    <p><strong>Email:</strong> info@whitewater.com</p>
+        <h1>WhiteWater Rafting Company</h1>
+        <section class="contact-section">
+            <div class="company-info">
+                <p>Coelho Neto 389<br>Joinville, Santa Catarina-BR</p>
+                <p><strong>Phone:</strong> +1 999 999 9999</p>
+                <p><strong>Email:</strong> info@whitewater.com</p>
+            </div>
+            <div class="contact-grid">
+                <div class="map-wrapper">
+                    <iframe class="map-frame"
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.550536567323!2d-48.854265126111336!3d-26.27624707703222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deafda4ff8733d%3A0x839c5648447fad85!2sR.%20Coelho%20Neto%2C%20389%20-%20Santo%20Ant%C3%B4nio%2C%20Joinville%20-%20SC%2C%2089218-015!5e0!3m2!1sen!2sbr!4v1764446843189!5m2!1sen!2sbr"
+                        allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                    </iframe>
                 </div>
-                <div class="contact-grid">
-                    <div class="map-wrapper">
-                        <iframe class="map-frame"
-                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3577.550536567323!2d-48.854265126111336!3d-26.27624707703222!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94deafda4ff8733d%3A0x839c5648447fad85!2sR.%20Coelho%20Neto%2C%20389%20-%20Santo%20Ant%C3%B4nio%2C%20Joinville%20-%20SC%2C%2089218-015!5e0!3m2!1sen!2sbr!4v1764446843189!5m2!1sen!2sbr"
-                            allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                        </iframe>
-                    </div>
-                    <form class="contact-form" action="#" method="post">
-                        <fieldset>
-                            <div class="form-field">
-                                <label for="name">Name</label>
-                                <input id="name" name="name" type="text" placeholder="Your full name" required>
-                            </div>
+                <form class="contact-form" action="#" method="post">
+                    <fieldset>
+                        <div class="form-field">
+                            <label for="name">Name</label>
+                            <input id="name" name="name" type="text" placeholder="Your full name" required>
+                        </div>
 
-                            <div class="form-field">
-                                <label for="email">Email</label>
-                                <input id="email" name="email" type="email" placeholder="you@example.com" required>
-                            </div>
+                        <div class="form-field">
+                            <label for="email">Email</label>
+                            <input id="email" name="email" type="email" placeholder="you@example.com" required>
+                        </div>
 
-                            <div class="form-field">
-                                <span class="label">Message Purpose</span>
-                                <div class="radio-group">
-                                    <label>
-                                        <input type="radio" name="purpose" value="general" required>
-                                        General Inquiry
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="purpose" value="reservation">
-                                        Reservation Question
-                                    </label>
-                                    <label>
-                                        <input type="radio" name="purpose" value="website">
-                                        Website Suggestion
-                                    </label>
-                                </div>
-                            </div>
-
-                            <div class="form-field">
-                                <label for="message">Message</label>
-                                <textarea id="message" name="message" rows="6" placeholder="Type here"
-                                    required></textarea>
-                            </div>
-
-                            <div class="form-field checkbox-field">
+                        <div class="form-field">
+                            <span class="label">Message Purpose</span>
+                            <div class="radio-group">
                                 <label>
-                                    <input type="checkbox" name="subscribe">
-                                    Please subscribe me to the monthly newsletter
+                                    <input type="radio" name="purpose" value="general" required>
+                                    General Inquiry
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="reservation">
+                                    Reservation Question
+                                </label>
+                                <label>
+                                    <input type="radio" name="purpose" value="website">
+                                    Website Suggestion
                                 </label>
                             </div>
+                        </div>
 
-                            <button class="btn-submit" type="submit">Get in Touch!</button>
-                        </fieldset>
-                    </form>
-                </div>
-            </section>
-            <section class="employees">
-                <h2>We Are Here to Serve You</h2>
+                        <div class="form-field">
+                            <label for="message">Message</label>
+                            <textarea id="message" name="message" rows="6" placeholder="Type here" required></textarea>
+                        </div>
 
-                <div class="employee-grid">
-                    <figure class="employee-card">
-                        <img src="images/profile.png" alt="Profile photo of River Guide Lead">
-                        <figcaption>
-                            <strong>Title:</strong> River Guide Lead
-                        </figcaption>
-                    </figure>
+                        <div class="form-field checkbox-field">
+                            <label>
+                                <input type="checkbox" name="subscribe">
+                                Please subscribe me to the monthly newsletter
+                            </label>
+                        </div>
 
-                    <figure class="employee-card">
-                        <img src="images/profile.png" alt="Profile photo of Reservations Manager">
-                        <figcaption>
-                            <strong>Title:</strong> Reservations Manager
-                        </figcaption>
-                    </figure>
+                        <button class="btn-submit" type="submit">Get in Touch!</button>
+                    </fieldset>
+                </form>
+            </div>
+        </section>
+        <section class="employees">
+            <h2>We Are Here to Serve You</h2>
 
-                    <figure class="employee-card">
-                        <img src="images/profile.png" alt="Profile photo of Web & Customer Support">
-                        <figcaption>
-                            <strong>Title:</strong> Web & Customer Support
-                        </figcaption>
-                    </figure>
-                </div>
-            </section>
-        </main>
+            <div class="employee-grid">
+                <figure class="employee-card">
+                    <img src="images/profile.png" alt="Profile photo of River Guide Lead">
+                    <figcaption>
+                        <strong>Title:</strong> River Guide Lead
+                    </figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/profile.png" alt="Profile photo of Reservations Manager">
+                    <figcaption>
+                        <strong>Title:</strong> Reservations Manager
+                    </figcaption>
+                </figure>
+
+                <figure class="employee-card">
+                    <img src="images/profile.png" alt="Profile photo of Web & Customer Support">
+                    <figcaption>
+                        <strong>Title:</strong> Web & Customer Support
+                    </figcaption>
+                </figure>
+            </div>
+        </section>
+    </main>
 
 
 
