@@ -322,5 +322,54 @@ footer {
   font-size: 14px;
   color: var(--primary-color);
 }
+/* Newsletter */
+.newsletter {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+  background: var(--accent1-color);
+  border-radius: 6px;
+  max-width: 600px;
+}
+.newsletter form {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-top: 16px;
+}
+.newsletter input {
+  padding: 10px;
+  border: 1px solid var(--primary-color);
+  border-radius: 6px;
+}
+
+/* Call to Action */
+.cta {
+  text-align: center;
+  margin: 40px auto;
+  padding: 20px;
+}
+.cta a {
+  display: inline-block;
+  margin-top: 12px;
+  text-decoration: none;
+}
+
+/* About Grid */
+.about-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 24px;
+  margin: 40px;
+}
+.about-grid .grid-item {
+  text-align: center;
+}
+.about-grid img {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 6px;
+  box-shadow: 0 2px 6px var(--primary-color);
+}
 
 
